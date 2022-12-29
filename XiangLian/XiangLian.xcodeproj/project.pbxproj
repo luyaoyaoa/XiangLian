@@ -35,6 +35,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6835FB295DA3FC009E4A30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C6835FC295DA3FC009E4A30 /* Home */,
+				8C6835FD295DA3FC009E4A30 /* Tools */,
+				8C6835FE295DA3FC009E4A30 /* Follow */,
+				8C6835FF295DA3FC009E4A30 /* Profile */,
+				8C683600295DA3FC009E4A30 /* Live */,
+				8C683601295DA3FC009E4A30 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C6835FC295DA3FC009E4A30 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8C6835FD295DA3FC009E4A30 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8C6835FE295DA3FC009E4A30 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8C6835FF295DA3FC009E4A30 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8C683600295DA3FC009E4A30 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		8C683601295DA3FC009E4A30 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		8CFB35A4295D83A30067A776 = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +109,7 @@
 		8CFB35AF295D83A30067A776 /* XiangLian */ = {
 			isa = PBXGroup;
 			children = (
-				8CFB35C4295D8B5A0067A776 /* Classes */,
+				8C6835FB295DA3FC009E4A30 /* Classes */,
 				8CFB35B0295D83A30067A776 /* AppDelegate.swift */,
 				8CFB35B2295D83A30067A776 /* SceneDelegate.swift */,
 				8CFB35B6295D83A30067A776 /* Main.storyboard */,
@@ -63,61 +118,6 @@
 				8CFB35BE295D83A30067A776 /* Info.plist */,
 			);
 			path = XiangLian;
-			sourceTree = "<group>";
-		};
-		8CFB35C4295D8B5A0067A776 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8CFB35CA295D8B5A0067A776 /* Main */,
-				8CFB35C5295D8B5A0067A776 /* Home */,
-				8CFB35C9295D8B5A0067A776 /* Live */,
-				8CFB35C7295D8B5A0067A776 /* Follow */,
-				8CFB35C8295D8B5A0067A776 /* Profile */,
-				8CFB35C6295D8B5A0067A776 /* Tools */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		8CFB35C5295D8B5A0067A776 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		8CFB35C6295D8B5A0067A776 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		8CFB35C7295D8B5A0067A776 /* Follow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Follow;
-			sourceTree = "<group>";
-		};
-		8CFB35C8295D8B5A0067A776 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
-		8CFB35C9295D8B5A0067A776 /* Live */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Live;
-			sourceTree = "<group>";
-		};
-		8CFB35CA295D8B5A0067A776 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
