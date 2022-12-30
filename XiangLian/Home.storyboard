@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LmC-wR-fzI">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="FJP-5g-x2z">
+            <objects>
+                <viewController id="Lpm-zY-by4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lFD-Nb-LVg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hRl-UO-k50"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Maq-gv-wOd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5PS-fB-9Ow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="16"/>
+        </scene>
+        <!--遇见-->
+        <scene sceneID="6Z3-KX-eOA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LmC-wR-fzI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="遇见" image="home_bottom_home" selectedImage="home_bottom_home_svga_img" id="FkL-z0-YA7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="z6w-sn-uWB">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Lpm-zY-by4" kind="relationship" relationship="rootViewController" id="DaW-vS-CDa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yTb-eD-ccy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-27" y="15"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_bottom_home" width="75" height="75"/>
+        <image name="home_bottom_home_svga_img" width="132" height="132"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
